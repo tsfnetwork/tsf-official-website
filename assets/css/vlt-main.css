@@ -478,12 +478,6 @@
     }
 }
 
-@media only screen and (max-width: 1199px) {
-    .vlt-gap-100--lg {
-        height: 6.25rem;
-    }
-}
-
 .vlt-gap-75 {
     height: 4.6875rem;
 }
@@ -595,7 +589,6 @@
         height: 3.125rem;
     }
 }
-
 
 @media only screen and (max-width: 575px) {
     .vlt-gap-45--xs {
@@ -889,8 +882,6 @@ h2,
 .h2 {
     font-size: 4rem;
 }
-
-
 
 h4,
 .h4 {
@@ -1260,8 +1251,6 @@ select:focus::-webkit-input-placeholder {
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
-
-
 
 .vlt-navbar .vlt-navbar-inner--center {
     position: absolute;
@@ -1789,14 +1778,6 @@ select:focus::-webkit-input-placeholder {
 
 /* PAGE: FULLPAGE SLIDER
 -------------------------------------------- */
-
-[data-anchor='Home'] p {
-    font-size: .9375rem;
-    max-width: 23.125rem;
-    color: rgb(255, 255, 255);
-}
-
-
 
 #contact {
     /* height: 830px; */
@@ -3323,14 +3304,10 @@ select:focus::-webkit-input-placeholder {
     background-color: #161616;
 }
 
-
-
 .whiteText {
     color: #358fcb;
     font-size: 13px;
 }
-
-
 
 .contact1 {
     font-size: 25px;
@@ -3390,27 +3367,99 @@ select:focus::-webkit-input-placeholder {
 .vlt-gap-20 {
     height: 20px;
 }
-@media screen and (min-width: 992px) {
+
+@media screen and (min-width: 768px) {
     #coinTsfimgHolder {
-        width: 70%;
+        width: 50%;
         text-align: center;
         margin: auto;
         margin-top: 30px;
     }
+    [data-anchor='Home'] p {
+        font-size: .9375rem;
+        max-width: 100%;
+        color: rgb(255, 255, 255);
+    }
+    .border12 {
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: 70px;
+    }
+    .vlt-gap-100--lg {
+        height: 2.25rem;
+    }
+    .vlt-fullpage-slider .vlt-section__content {
+        padding: 0.5rem 0.5rem;
+    }
+    .tsfspec h3.text2 {
+        font-size: 1.125rem;
+        margin-bottom: 5px;
+    }
+    .tsfspec h3.text3 {
+        font-size: 1.125rem;
+        margin-bottom: 5px;
+    }
+    #premine {
+        margin-top: 30px;
+    }
+    .specDiv {
+        background: #161616;
+        border: 1px solid rgb(45 117 164);
+        padding: 20px 0;
+    }
+    .appsLogo {
+        padding-top: 35px;
+    }
+    #miner {
+        display: block;
+        word-wrap: break-word;
+        font-size: 12px;
+        white-space: normal;
+    }
+    #explorerHolder {
+        max-width: 50%;
+    }
+    .contactGap {
+        display: none;
+    }
+    .containerFooter {
+        margin-top: -150px;
+    }
 }
+
+@media screen and (min-width: 992px) {
+    #coinTsfimgHolder {
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+    [data-anchor='Home'] p {
+        font-size: .9375rem;
+        max-width: 100%;
+        color: rgb(255, 255, 255);
+    }
+    .content {
+        display: contents;
+    }
+    .border12 {
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: 70px;
+    }
+    .vlt-gap-100--lg {
+        height: 2.25rem;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     #gap100Coin {
         height: 0;
-    }  
+    }
     #tesla {
         margin-top: 30px;
-    }
-    .border12 {
-        padding-top: 76px;
-        width: 80%;
-        height: auto;
-        margin: auto;
-        text-align: center;
     }
     [data-anchor='About'] p {
         font-size: .9375rem;
@@ -3425,11 +3474,18 @@ select:focus::-webkit-input-placeholder {
         font-size: 1.525rem;
         margin-bottom: 5px;
     }
+    .tsfspec h3.text3 {
+        font-size: 1.525rem;
+        margin-bottom: 5px;
+    }
     .appsLogo {
         padding-top: 35px;
     }
     #miner {
+        display: block;
+        word-wrap: break-word;
         font-size: 12px;
+        white-space: normal;
     }
     #explorerHolder {
         max-width: 40%;
@@ -3437,59 +3493,91 @@ select:focus::-webkit-input-placeholder {
     .contactGap {
         display: none;
     }
+    [data-anchor='Home'] p {
+        font-size: .9375rem;
+        max-width: 23.125rem;
+        color: rgb(255, 255, 255);
+    }
+    .border12 {
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: 70px;
+    }
+    .specDiv {
+        background: #161616;
+        border: 1px solid rgb(45 117 164);
+        padding: 40px;
+    }
+    .containerFooter {
+        margin-top: -150px;
+    }
 }
+
 @media screen and (min-width: 1080px) {
-   #gap100Coin {
-     height: 0;
-   }
-   .border12 {
-    padding-top: 76px;
-    width: 80%;
-    height: auto;
-    margin: auto;
-    text-align: center;
-}
-#imgStatus {
-    display: none;
-}
-#aboutTitle {
-    padding-top: 0px;
-}
-[data-anchor='About'] p {
-    font-size: .9375rem;
-    max-width: 100%;
-    color: rgba(255, 255, 255, .6);
-    margin-top: 30px;
-}
-.tsfspec h3.text2 {
-    font-size: 1.525rem;
-    margin-bottom: 5px;
-}
-#premine {
-    margin-top: 30px;
-}
-.appsLogo {
-    padding-top: 35px;
-} 
-#miner {
-    font-size: 13px;
-}
-#explorerHolder {
-    max-width: 40%;
-}
-.contactGap {
-    display: none;
-}
-.mt-40 {
-    margin-top: -40px;
-}
-#tesla {
-    margin-top: 0;
-}
+    #gap100Coin {
+        height: 0;
+    }
+    .border12 {
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: 70px;
+    }
+    #imgStatus {
+        display: none;
+    }
+    #aboutTitle {
+        padding-top: 0px;
+    }
+    [data-anchor='About'] p {
+        font-size: .9375rem;
+        max-width: 100%;
+        color: rgba(255, 255, 255, .6);
+        margin-top: 30px;
+    }
+    .tsfspec h3.text2 {
+        font-size: 1.525rem;
+        margin-bottom: 5px;
+    }
+    .tsfspec h3.text3 {
+        font-size: 1.525rem;
+        margin-bottom: 5px;
+    }
+    #premine {
+        margin-top: 30px;
+    }
+    .appsLogo {
+        padding-top: 35px;
+    }
+    #miner {
+        font-size: 13px;
+    }
+    #explorerHolder {
+        max-width: 40%;
+    }
+    .contactGap {
+        display: none;
+    }
+    .mt-40 {
+        margin-top: -40px;
+    }
+    #tesla {
+        margin-top: 0;
+    }
+    [data-anchor='Home'] p {
+        font-size: .9375rem;
+        max-width: 23.125rem;
+        color: rgb(255, 255, 255);
+    }
+    .specDiv {
+        background: #161616;
+        border: 1px solid rgb(45 117 164);
+        padding: 40px;
+    }
 }
 
 @media screen and (min-width: 1199px) {
-    
     .vlt-project-title {
         font-size: 3.5rem;
         font-weight: 600;
@@ -3499,7 +3587,6 @@ select:focus::-webkit-input-placeholder {
         font-size: 16px;
         padding-top: 11px;
     }
-    
     .text3 {
         font-size: 16px;
     }
@@ -3523,8 +3610,8 @@ select:focus::-webkit-input-placeholder {
     }
     #gap100Coin {
         height: 2.25rem;
-      }
-      #imgStatus {
+    }
+    #imgStatus {
         display: block;
     }
     #aboutTitle {
@@ -3567,9 +3654,22 @@ select:focus::-webkit-input-placeholder {
     #tesla {
         margin-top: 0;
     }
+    [data-anchor='Home'] p {
+        font-size: .9375rem;
+        max-width: 23.125rem;
+        color: rgb(255, 255, 255);
+    }
+    .vlt-gap-100--lg {
+        height: 6.25rem;
+    }
+    .specDiv {
+        background: #161616;
+        border: 1px solid rgb(45 117 164);
+        padding: 40px;
+    }
 }
+
 @media screen and (min-width: 1600px) {
-    
     .vlt-project-title {
         font-size: 7.5rem;
         font-weight: 600;
@@ -3578,7 +3678,6 @@ select:focus::-webkit-input-placeholder {
     .tsfspec h3.text2 {
         font-size: 17px;
     }
-    
     .text3 {
         font-size: 17px;
     }
@@ -3590,7 +3689,7 @@ select:focus::-webkit-input-placeholder {
     }
     #gap100Coin {
         height: 2.25rem;
-      }
+    }
     .border12 {
         padding-top: 206px;
         height: 800px;
@@ -3624,8 +3723,21 @@ select:focus::-webkit-input-placeholder {
     #tesla {
         margin-top: 0;
     }
+    [data-anchor='Home'] p {
+        font-size: .9375rem;
+        max-width: 23.125rem;
+        color: rgb(255, 255, 255);
+    }
+    .vlt-gap-100--lg {
+        height: 6.25rem;
+    }
+    .specDiv {
+        background: #161616;
+        border: 1px solid rgb(45 117 164);
+        padding: 40px;
+    }
 }
+
 .mb10 {
     margin-bottom: 10px;
 }
-
