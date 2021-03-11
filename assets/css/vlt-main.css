@@ -3473,6 +3473,9 @@ select:focus::-webkit-input-placeholder {
        .footer-1 {
         margin-bottom: 25px;
        }
+       .appsTittle {
+        margin-top: 55px;
+    }
    
 }
 
@@ -3554,19 +3557,23 @@ select:focus::-webkit-input-placeholder {
     #saHolder {
         text-align: right;
         background-color: transparent;
-         border-radius: 6px;
+        border-radius: 6px;
         }
-        #footerDiv {
-            position: fixed;
-            bottom: 0;
-            left:0;
-            right:0;
-            background:#000000ad;
+    #footerDiv {
+        position: fixed;
+        bottom: 0;
+        left:0;
+        right:0;
+        background:#000000ad;
         }
 
-        .footer-1 {
+    .footer-1 {
             margin-bottom: 0;
            }
+           .appsTittle {
+            margin-top: 15px;
+        }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -3648,6 +3655,14 @@ select:focus::-webkit-input-placeholder {
     .footer-1 {
         margin-bottom: 0;
        }
+       .statush4 {
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.7px;
+        color: #b3b3b3;
+        line-height: inherit;
+    }
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -3673,6 +3688,13 @@ select:focus::-webkit-input-placeholder {
     }
     .vlt-gap-100--lg {
         height: 2.25rem;
+    }
+    .statush4 {
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0.7px;
+        color: #b3b3b3;
+        line-height: inherit;
     }
 }
 
@@ -3742,6 +3764,13 @@ select:focus::-webkit-input-placeholder {
         text-align: center;
         margin: auto;
         margin-top: 30px;
+    }
+    .statush4 {
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0.7px;
+        color: #b3b3b3;
+        line-height: inherit;
     }
 }
 
