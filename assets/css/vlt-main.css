@@ -1439,11 +1439,14 @@ select:focus::-webkit-input-placeholder {
     -ms-flex-direction: column;
 }
 
-@media only screen and (min-width: 576px) {
+/* @media only screen and (min-width: 576px) {
     .vlt-offcanvas-menu {
         width: 31.25rem;
     }
-}
+    /* .container {
+        max-width: 1540px !important;
+    } */
+} */
 
 @media only screen and (min-width: 992px) {
     .vlt-offcanvas-menu {
@@ -3352,10 +3355,11 @@ select:focus::-webkit-input-placeholder {
 }
 
 .textFooter {
-    font-size: 12px;
+    font-size: 16px;
     padding: 2px;
-    color: rgb(119, 115, 115);
+    color: rgb(182, 182, 182);
     list-style: none;
+    text-align: left;
 }
 
 .textFooter a {
@@ -3481,6 +3485,9 @@ select:focus::-webkit-input-placeholder {
 
 
 @media screen and (min-width: 576px) {
+    .vlt-offcanvas-menu {
+        width: 31.25rem;
+    }
     #coinTsfimgHolder {
         width: 80%;
         text-align: center;
@@ -3542,7 +3549,7 @@ select:focus::-webkit-input-placeholder {
         display: none;
     }
     .containerFooter {
-        margin-top: -150px;
+        /* margin-top: -150px; */
     }
     #explorerGlobal {
         display: block;
@@ -3558,21 +3565,22 @@ select:focus::-webkit-input-placeholder {
         text-align: right;
         background-color: transparent;
         border-radius: 6px;
-        }
-    #footerDiv {
-        position: fixed;
-        bottom: 0;
-        left:0;
-        right:0;
-        background:#000000ad;
-        }
+    }
+    
 
     .footer-1 {
-            margin-bottom: 0;
-           }
+        margin-bottom: 30px;
+    }
            .appsTittle {
             margin-top: 15px;
         }
+    #footerDiv {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #000000ad;
+    }
 
 }
 
@@ -3632,7 +3640,7 @@ select:focus::-webkit-input-placeholder {
         display: none;
     }
     .containerFooter {
-        margin-top: -150px;
+        /* margin-top: -150px; */
     }
     #blockchainStatus {
         margin-top: 0;
@@ -3661,6 +3669,16 @@ select:focus::-webkit-input-placeholder {
         letter-spacing: 0.7px;
         color: #b3b3b3;
         line-height: inherit;
+    }
+    .textFooter {
+        font-size: 12px;
+    }
+    #footerDiv {
+        position: fixed;
+        bottom: 0;
+        left:0;
+        right:0;
+        background:#000000ad;
     }
     
 }
@@ -3754,7 +3772,7 @@ select:focus::-webkit-input-placeholder {
         padding: 40px;
     }
     .containerFooter {
-        margin-top: -150px;
+        /* margin-top: -150px; */
     }
     .content {
         display: block;
@@ -4033,4 +4051,8 @@ select:focus::-webkit-input-placeholder {
 .mb10 {
     margin-bottom: 10px;
 }
-
+@media (min-width: 576px) {
+    #footerDiv .c1 {
+        max-width: 740px;
+    }
+}
