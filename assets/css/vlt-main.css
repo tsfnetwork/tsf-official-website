@@ -3581,6 +3581,7 @@ select:focus::-webkit-input-placeholder {
         right: 0;
         background: #000000ad;
     }
+    
 
 }
 
@@ -3670,15 +3671,15 @@ select:focus::-webkit-input-placeholder {
         color: #b3b3b3;
         line-height: inherit;
     }
-    .textFooter {
-        font-size: 12px;
-    }
     #footerDiv {
         position: fixed;
         bottom: 0;
         left:0;
         right:0;
         background:#000000ad;
+    }
+    .textFooter {
+        font-size: 12px;
     }
     
 }
@@ -3713,6 +3714,9 @@ select:focus::-webkit-input-placeholder {
         letter-spacing: 0.7px;
         color: #b3b3b3;
         line-height: inherit;
+    }
+    .textFooter {
+        font-size: 12px;
     }
 }
 
@@ -3790,6 +3794,9 @@ select:focus::-webkit-input-placeholder {
         color: #b3b3b3;
         line-height: inherit;
     }
+    .textFooter {
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 1080px) {
@@ -3861,6 +3868,9 @@ select:focus::-webkit-input-placeholder {
         text-align: center;
         margin: auto;
         margin-top: 30px;
+    }
+    .textFooter {
+        font-size: 12px;
     }
 }
 
@@ -3963,6 +3973,9 @@ select:focus::-webkit-input-placeholder {
         margin: auto;
         margin-top: 30px;
     }
+    .textFooter {
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 1600px) {
@@ -4046,6 +4059,9 @@ select:focus::-webkit-input-placeholder {
         background-color: transparent;
          border-radius: 6px;
     }
+    .textFooter {
+        font-size: 14px;
+    }
 }
 
 .mb10 {
@@ -4055,4 +4071,13 @@ select:focus::-webkit-input-placeholder {
     #footerDiv .c1 {
         max-width: 740px;
     }
+}
+
+.nameLink:hover {
+    color: #358fcb;
+}
+
+.nameLink {
+    color: #fff;
+    font-size: 23px;
 }
