@@ -4080,4 +4080,5 @@ select:focus::-webkit-input-placeholder {
 .nameLink {
     color: #fff;
     font-size: 23px;
+    font-weight: 700;
 }
