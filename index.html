@@ -919,7 +919,7 @@
 			setInterval(function () {
 				jQuery.ajax({
 					type: 'GET',
-					url: 'https://teslafunds-tsf.io/api/v1/network/stats/all',
+					url: 'https://explorer.tsf-platform.com/api/v1/network/stats',
 					dataType: 'json',
 					success: function (response) {
 						var tsfblock = response[0].number;
