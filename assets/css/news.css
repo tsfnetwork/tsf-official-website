@@ -1,0 +1,156 @@
+body {
+  font-family: Gilroy;
+  font-size: 1rem;
+  line-height: 1.8;
+  min-width: 20rem;
+  margin: 0;
+  padding: 0;
+  color: #767676;
+  background-color: #161616;
+}
+
+/* IMAGE
+  -------------------------------------------- */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* PARAGRAPH
+  -------------------------------------------- */
+
+p {
+  margin: 0 0 1.875rem;
+}
+
+p:empty {
+  display: none;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* STRONG
+  -------------------------------------------- */
+
+strong {
+  font-weight: 600;
+}
+
+/* LIST
+  -------------------------------------------- */
+
+ul,
+ol {
+  margin-bottom: 0;
+}
+
+a {
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  color: #358fcb;
+}
+
+.nameLink:hover {
+  color: #358fcb;
+}
+
+.nameLink {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.space {
+  height: 100px;
+}
+
+.space2 {
+  height: 150px;
+}
+
+.leadTittleNews {
+  font-size: 45px;
+  color: #358fcb;
+  text-align: center;
+}
+.newsTittle {
+  font-size: 20px;
+  color: #fff;
+}
+
+.newTittleP {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.space3 {
+  height: 20px;
+}
+
+.imgPlace {
+  height: 200px;
+  width: 300px;
+}
+
+.youtubeSection {
+  height: 600px;
+  width: 100%;
+  background: rgb(29, 29, 29);
+}
+.videoPlace {
+  width: 100%;
+  background: #171717;
+  height: 400px;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    -45deg,
+    #ff0000,
+    #00d0ff,
+    #f30000e8,
+    #00d0ff,
+    #b6110c
+  );
+  border-image-slice: 1;
+}
+.socialYt {
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+}
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  text-align: center;
+}
+.item {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  line-height: 20px;
+  overflow: hidden;
+  margin-top: 20px;
+  text-align: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
