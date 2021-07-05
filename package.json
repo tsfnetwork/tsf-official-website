@@ -1,0 +1,20 @@
+{
+  "name": "tsf-official-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "aws s3 sync $INIT_CWD s3://tsf-network.com --exclude '.git/*' --exclude '.vscode/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsfnetwork/tsf-official-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsfnetwork/tsf-official-website/issues"
+  },
+  "homepage": "https://github.com/tsfnetwork/tsf-official-website#readme"
+}
