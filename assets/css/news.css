@@ -79,6 +79,10 @@ a:hover {
   height: 100px;
 }
 
+.space1 {
+  height: 50px;
+}
+
 .space2 {
   height: 150px;
 }
@@ -93,9 +97,32 @@ a:hover {
   color: #fff;
 }
 
+.newsTittle1 {
+  font-size: 15px;
+  color: #fff;
+}
+
 .newTittleP {
+  font-size: 11px;
+  color: #fff;
+  text-align: -webkit-left;
+}
+
+.newsTittleP {
+  font-size: 20px;
+  color: #358fcb;
+}
+
+.newTittlePinstagram {
   font-size: 15px;
   text-align: justify;
+  color: #ffffff;
+}
+
+.newTittlePreddit {
+  font-size: 15px;
+  text-align: start;
+  color: #358fcb;
 }
 
 .space3 {
@@ -153,4 +180,89 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.instagramPage {
+  background: #328fd178;
+}
+
+.telegramPage {
+  background: #fff;
+}
+
+.redditPage {
+  background: #1d1d1d;
+}
+
+.socialReddit {
+  text-align: center;
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+.socialTelegramTittle {
+  text-align: center;
+  margin-top: 30px;
+  color: #358fcb;
+}
+
+/* .bestNews {
+  background: #161616;
+  height: 600px;
+  width: 100%;
+  max-width: 1288px;
+} */
+.lines {
+  background: #fff;
+  height: 1px;
+}
+
+.bestPosts {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.newsPbest {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.bestNewsP {
+  font-size: 10px;
+  color: #fff;
+}
+
+.footerWhite {
+  background: #fff;
+  height: 400px;
+}
+
+.footerFirstPart {
+  height: 150px;
+  background: #fff;
+  width: 100%;
+}
+
+.line1 {
+  height: 1px;
+  background: #358fcb;
+  width: 100%;
+}
+
+/* .rightside {
+  position: fixed;
+  right: 30px;
+  margin-top: 100px;
+}
+ */
+
+.socialSide {
+  position: fixed;
+  right: 30px;
+}
+
+.newsTittleP1 {
+  font-size: 20px;
+  color: #ffffff;
 }
