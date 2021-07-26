@@ -52,6 +52,7 @@ a {
   transition: all 300ms;
   text-decoration: none;
   color: inherit;
+  color: #767676;
 }
 
 a:hover,
@@ -101,9 +102,13 @@ a:hover {
   font-size: 15px;
   color: #fff;
 }
+.newsTittle2 {
+  font-size: larger;
+  color: #fff;
+}
 
 .newTittleP {
-  font-size: 11px;
+  font-size: 13px;
   color: #fff;
   text-align: -webkit-left;
 }
@@ -137,7 +142,7 @@ a:hover {
 .youtubeSection {
   height: 600px;
   width: 100%;
-  background: rgb(29, 29, 29);
+  background: #161616;
 }
 .videoPlace {
   width: 100%;
@@ -205,12 +210,6 @@ a:hover {
   color: #358fcb;
 }
 
-/* .bestNews {
-  background: #161616;
-  height: 600px;
-  width: 100%;
-  max-width: 1288px;
-} */
 .lines {
   background: #fff;
   height: 1px;
@@ -250,19 +249,148 @@ a:hover {
   width: 100%;
 }
 
-/* .rightside {
-  position: fixed;
-  right: 30px;
-  margin-top: 100px;
+.social-icons a {
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  background-color: #2e2e2e;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 9px;
+  position: relative;
 }
- */
+.fa,
+.fa-stack {
+  display: inline-block;
+}
+
+.social-icons a i {
+  font-size: 25px;
+  transition: 0.3s;
+}
+.fa {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
 
 .socialSide {
   position: fixed;
   right: 30px;
+  width: 4%;
+}
+.socialSide1 {
+  position: fixed;
+  left: 30px;
+  width: 11%;
+  text-align: center;
 }
 
 .newsTittleP1 {
   font-size: 20px;
   color: #ffffff;
+}
+
+.social-icons a span:nth-child(1) {
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: linear-gradient(to right, transparent, #ffffff);
+}
+
+.social-icons a span:nth-child(2) {
+  top: 0;
+  right: 0;
+  height: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, transparent, #ffffff);
+  transition-delay: 0.2s;
+}
+
+.social-icons a span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: linear-gradient(to left, transparent, #ffffff);
+  transition-delay: 0.4s;
+}
+
+.social-icons a span:nth-child(4) {
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 2px;
+  background: linear-gradient(to top, transparent, #ffffff);
+  transition-delay: 0.6s;
+}
+.social-icons a span {
+  position: absolute;
+  transition: 0.3s;
+  box-shadow: 0 0 20px #00cec9, 0 0 40px #ffffff, 0 0 80px #ffffff;
+}
+
+.space4 {
+  height: 16px;
+}
+
+form {
+  width: 428px;
+  margin: 50px auto;
+  padding: 50px;
+}
+
+input {
+  font-family: "PT Sans Narrow";
+  font-size: 20px;
+}
+
+.info {
+  display: inline-block;
+  margin-right: 5px;
+  width: 100%;
+}
+
+.info input {
+  display: block;
+  width: 100%;
+  height: 44px;
+  border: 0;
+  border-radius: 3px;
+  margin: 0 0 10px 0;
+  padding: 12px 10px;
+  background: #fff;
+}
+
+.info input:last-child {
+  margin: 0;
+}
+
+.info input:focus {
+  background: #eee;
+  outline: none;
+}
+
+input[type="submit"] {
+  vertical-align: top;
+  height: 44px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 3px;
+  background: pink;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  background: linear-gradient(45deg, #ff6c54, #ffa754);
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(180deg, #ff6c54, #ffa754);
 }

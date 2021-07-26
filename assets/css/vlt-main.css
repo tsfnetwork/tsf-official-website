@@ -4111,3 +4111,36 @@ select:focus::-webkit-input-placeholder {
   width: 300px;
 }
 
+.social-icons a {
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  background-color: #111;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 9px;
+  position: relative;
+}
+.fa,
+.fa-stack {
+  display: inline-block;
+}
+
+.social-icons a i {
+  font-size: 25px;
+  transition: 0.3s;
+}
+.fa {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.socialSide {
+  position: fixed;
+  right: 30px;
+  width: 1%;
+}
